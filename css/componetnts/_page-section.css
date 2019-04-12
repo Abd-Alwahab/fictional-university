@@ -1,0 +1,17 @@
+.page-section {
+
+    padding: 1.4rem 0;
+
+    @mixin atMedium {
+
+        padding: 4.5rem 0;
+    }
+    
+}
+
+.page-section--orange {
+
+    background-color: orange;
+    color: #fff;
+    
+}

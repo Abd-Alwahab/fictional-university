@@ -1,0 +1,11 @@
+@import "normalize.css";
+@import "./componetnts/_base";
+@import "componetnts/_varibales";
+@import "componetnts/_mixins";
+@import "componetnts/_header";
+@import "componetnts/_btn";
+@import "componetnts/_wrapper";
+@import "componetnts/_page-section";
+@import "componetnts/_headline";
+@import "componetnts/_row";
+@import "componetnts/_generic-content";

@@ -1,0 +1,14 @@
+.generic-content {
+
+}
+
+
+.generic-content p {
+    line-height: 1.6;
+    font-size: 1.2;
+
+}
+
+.generic-content p a {
+    font-weight:bold;
+}

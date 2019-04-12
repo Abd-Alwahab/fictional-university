@@ -1,0 +1,23 @@
+.btn {
+
+    background-color: #fff;
+    padding: .7rem 1.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: orangered;
+    display: inline-block;
+}
+
+.btn--black {
+    background-color: #000;
+}
+
+
+.btn--large {
+
+    padding: 1rem 1.5rem;
+    
+    @mixin atSmall {
+        font-size: 1.3rem;
+    }
+}
