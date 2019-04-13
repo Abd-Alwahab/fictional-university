@@ -1,0 +1,58 @@
+.feature {
+    position: relative;
+    text-align: center;
+}
+
+.feature__title {
+    margin-bottom: 0; 
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;      
+}
+
+.feature__description {
+    line-height: 1.6;
+}
+
+
+.feature__icon {
+
+    font-size: 2.5rem;
+    color: #0603b6;
+  
+  
+ }
+
+ 
+ .main--icon {
+    display: block;
+}
+
+
+ 
+@mixin atSmall {
+
+    .feature {
+        padding-left: 4rem;
+        text-align: left;
+    }
+
+    .feature__icon {
+    
+        position: absolute;
+        left: 0;
+    }
+
+    .feature__title {
+
+        text-align: left;
+    }
+
+    .main--icon {
+
+        margin-right: .5rem;
+        display: inline-block;
+    }
+    
+}
+

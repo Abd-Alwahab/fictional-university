@@ -9,6 +9,11 @@
     padding-right: 2rem;
 }
 
+.row--gutter-large > div:not(last-of-type) {
+
+    margin-right: 3rem;
+}
+
 .colum-margin-bottom {
     margin-bottom: 2rem;
 }
@@ -20,6 +25,10 @@
     }
     
 
+    .row__medium-6 {
+        width: 45%;
+        float:left;
+    }
 
     .row__medium-4 {
 
@@ -42,6 +51,8 @@
     .row__medium-8--smaller {
         width: 63%;
     }
+
+
 
 }
 
