@@ -9,24 +9,28 @@
 .testimonials__title {
     text-align: center;
     font-size: 3.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
     display: block;
 }
 
 .testimonials__content {
+    
     margin: 3rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .testimoials__item {
-    width: 30%;
-    padding: 1rem 2rem;
+    width: 80%;
+    padding: 1rem;
     box-sizing: border-box;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.658);
-    margin: 0 1rem;
+    margin: 2rem 1rem;
 }
 
 
@@ -42,3 +46,36 @@
 .testimoialis__text {
     display: block;
 }
+
+
+
+@mixin atMedium {
+
+    .testimonials__content {
+        
+        flex-direction: row;
+        justify-content: center;
+        padding:0;
+        
+    }
+
+
+    .testimoials__item {
+            width: 45%;
+            margin: 6rem 2rem;;
+
+         }   
+        
+    }
+
+
+    
+@mixin atLarge {
+
+    .testimoials__item {
+            width: 27%;
+            margin: 2rem;;
+
+         }   
+        
+    }
