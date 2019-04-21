@@ -695,21 +695,44 @@ a {
 
 #testimonials {
     padding: 8rem 0;
+    background:linear-gradient(rgba(255, 255, 255, 0.411),rgba(255, 255, 255, 0.397)), url(../../images/beach--background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .testimonials__title {
     text-align: center;
     font-size: 3.4rem;
     margin-bottom: 2rem;
+    display: block;
 }
 
 .testimonials__content {
+    margin: 3rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.testimonials__item {
+.testimoials__item {
+    width: 30%;
     padding: 1rem 2rem;
     box-sizing: border-box;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.658);
+    margin: 0 1rem;
+}
+
+.testimonials__img {
+    width: 6rem;
+    height: 6rem;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    top: -3rem;  
+    position: relative;
+}
+
+.testimoialis__text {
+    display: block;
 }
