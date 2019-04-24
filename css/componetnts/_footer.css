@@ -1,0 +1,16 @@
+.footer {
+
+    text-align: center;
+    height: 6rem;
+    background-color: orange;
+    padding: 2rem;
+}
+
+.footer__text {
+    color: #fff;
+
+}
+
+.footer__text a {
+    margin-left: 1rem;
+}
